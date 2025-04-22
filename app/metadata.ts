@@ -24,7 +24,14 @@ export const baseMetadata: Metadata = {
     "Keychron",
     "Keyboard Coupon code",
     "Epomaker Discout Coupon",
+    "mechanical keyboards on sale",
+    "discounted mechanical keyboards",
+    "genuine keyboard discounts",
+    "price history sales"
   ],
+  verification: {
+    google: "pteXhD_sCRcQIizD12dTTZgLhu2flYqm0VfE0M8GXTo",
+  },
   authors: [{ name: "KeebSteals Team" }],
   creator: "KeebSteals",
   publisher: "KeebSteals",
