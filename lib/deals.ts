@@ -1,0 +1,118 @@
+import type { Deal } from "./types"
+
+export function getDeals(): Deal[] {
+  return [
+    {
+      id: "1",
+      title: "Keychron K2 Wireless Mechanical Keyboard with Gateron Brown Switch",
+      brand: "Keychron",
+      description:
+        "Keychron K2 is a 75% layout wireless mechanical keyboard giving you all the keys you need while keeping it compact. Connect with up to 3 devices via Bluetooth and switch between them easily.",
+      currentPrice: 79.99,
+      originalPrice: 99.99,
+      discount: 20,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Mechanical", "Wireless", "75%"],
+      dateAdded: "2023-04-15",
+    },
+    {
+      id: "2",
+      title: "Razer BlackWidow V3 Pro Mechanical Gaming Keyboard",
+      brand: "Razer",
+      description:
+        "The Razer BlackWidow V3 Pro is our first wireless mechanical gaming keyboard—featuring Razer™ HyperSpeed Wireless for ultra-responsive gaming, and Bluetooth connectivity for versatile use.",
+      currentPrice: 179.99,
+      originalPrice: 229.99,
+      discount: 22,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Gaming", "Mechanical", "Wireless"],
+      dateAdded: "2023-04-10",
+    },
+    {
+      id: "3",
+      title: "Logitech G915 TKL Tenkeyless Lightspeed Wireless RGB Mechanical Gaming Keyboard",
+      brand: "Logitech",
+      description:
+        "A breakthrough in design and engineering, G915 features LIGHTSPEED pro-grade wireless, advanced LIGHTSYNC RGB, and new high-performance low-profile mechanical switches.",
+      currentPrice: 169.99,
+      originalPrice: 229.99,
+      discount: 26,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Gaming", "Wireless", "Low Profile"],
+      dateAdded: "2023-04-05",
+    },
+    {
+      id: "4",
+      title: "Ducky One 3 SF Daybreak Mechanical Keyboard",
+      brand: "Ducky",
+      description:
+        "The Ducky One 3 SF Daybreak is a 65% layout mechanical keyboard featuring hot-swappable switches, double-shot PBT keycaps, and a unique two-tone colorway.",
+      currentPrice: 119.99,
+      originalPrice: 129.99,
+      discount: 8,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Mechanical", "65%", "Hot-swappable"],
+      dateAdded: "2023-04-01",
+    },
+    {
+      id: "5",
+      title: "Corsair K70 RGB PRO Mechanical Gaming Keyboard",
+      brand: "Corsair",
+      description:
+        "The CORSAIR K70 RGB PRO Mechanical Gaming Keyboard pairs an aluminum frame with CHERRY MX mechanical keyswitches for competition-grade performance.",
+      currentPrice: 129.99,
+      originalPrice: 169.99,
+      discount: 24,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Gaming", "Mechanical", "RGB"],
+      dateAdded: "2023-03-28",
+    },
+    {
+      id: "6",
+      title: "Royal Kludge RK61 60% Mechanical Keyboard",
+      brand: "Royal Kludge",
+      description:
+        "The RK61 is a compact 60% layout mechanical keyboard with Bluetooth connectivity, RGB backlighting, and budget-friendly price point.",
+      currentPrice: 39.99,
+      originalPrice: 59.99,
+      discount: 33,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Budget", "Mechanical", "60%", "Wireless"],
+      dateAdded: "2023-03-25",
+    },
+    {
+      id: "7",
+      title: "GMMK Pro 75% Barebone Keyboard",
+      brand: "Glorious",
+      description:
+        "The GMMK Pro is a premium 75% layout keyboard with a rotary knob, gasket-mounted plate, and hot-swappable switches for a customizable typing experience.",
+      currentPrice: 169.99,
+      originalPrice: 169.99,
+      discount: 0,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Mechanical", "75%", "Hot-swappable", "Premium"],
+      dateAdded: "2023-03-20",
+    },
+    {
+      id: "8",
+      title: "Epomaker TH80 75% Wireless Mechanical Keyboard",
+      brand: "Epomaker",
+      description:
+        "The Epomaker TH80 is a 75% layout wireless mechanical keyboard with hot-swappable switches, RGB backlighting, and a rotary knob.",
+      currentPrice: 89.99,
+      originalPrice: 109.99,
+      discount: 18,
+      image: "/placeholder.svg?height=300&width=500",
+      affiliateLink: "#",
+      tags: ["Mechanical", "Wireless", "75%", "Hot-swappable"],
+      dateAdded: "2023-03-15",
+    },
+  ]
+}
