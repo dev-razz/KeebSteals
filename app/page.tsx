@@ -46,7 +46,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
         <Header />
         <main className="container mx-auto px-4 py-8">
           <section className="mb-8">
-            <h1 className="text-3xl font-bold mb-2">KeebSteals</h1>
+            <h1 className="text-3xl font-bold mb-2">KeebDeals</h1>
             <p className="text-gray-600">Find the best deals on mechanical keyboards, updated daily.</p>
 
             {allDeals.length === 0 && (
@@ -64,7 +64,7 @@ export default async function Home({ searchParams }: { searchParams: Promise<Sea
 
         <footer className="bg-white border-t py-6">
           <div className="container mx-auto px-4 text-center text-sm text-gray-500">
-            <p>© {new Date().getFullYear()} KeebSteals. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} KeebDeals. All rights reserved.</p>
             <p className="mt-2">Affiliate disclosure: We may earn a commission when you purchase through our links.</p>
             <div className="mt-3 p-2 bg-blue-50 rounded-md border border-blue-100">
               <p className="text-blue-700 font-medium">Use coupon code: <span className="font-mono bg-white px-2 py-0.5 rounded border border-blue-200">TB9NV51TCTZ3</span> for an extra discount!</p>

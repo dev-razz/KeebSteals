@@ -3,13 +3,13 @@ import type { Metadata } from "next"
 // Base metadata for the site
 export const baseMetadata: Metadata = {
   title: {
-    template: "KeebSteals",
-    default: "KeebSteals - Find the Best Mechanical Keyboard Deals",
+    template: "Keebdeals",
+    default: "Keebdeals - Find the Best Mechanical Keyboard Deals",
   },
   description:
     "Discover the best deals on mechanical keyboards, gaming keyboards, and accessories. Save money with our curated selection of keyboard deals updated daily.",
   keywords: [
-    "keeb steals",
+    "keeb deals",
     "keyboard deals",
     "mechanical keyboard",
     "gaming keyboard",
@@ -32,15 +32,15 @@ export const baseMetadata: Metadata = {
   verification: {
     google: "pteXhD_sCRcQIizD12dTTZgLhu2flYqm0VfE0M8GXTo",
   },
-  authors: [{ name: "KeebSteals Team" }],
-  creator: "KeebSteals",
-  publisher: "KeebSteals",
+  authors: [{ name: "Keebdeals Team" }],
+  creator: "Keebdeals",
+  publisher: "Keebdeals",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://keebsteals.example.com"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://keebdeals.vercel.app/"),
   alternates: {
     canonical: "/",
   },
@@ -48,17 +48,17 @@ export const baseMetadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    siteName: "KeebSteals",
-    title: "KeebSteals - Find the Best Mechanical Keyboard Deals",
+    siteName: "Keebdeals",
+    title: "Keebdeals - Find the Best Mechanical Keyboard Deals",
     description:
       "Discover the best deals on mechanical keyboards, gaming keyboards, and accessories. Save money with our curated selection of keyboard deals updated daily.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "KeebSteals - Find the Best Mechanical Keyboard Deals",
+    title: "Keebdeals - Find the Best Mechanical Keyboard Deals",
     description:
       "Discover the best deals on mechanical keyboards, gaming keyboards, and accessories. Save money with our curated selection of keyboard deals updated daily.",
-    creator: "@KeebSteals",
+    creator: "@Keebdeals",
   },
   robots: {
     index: true,
